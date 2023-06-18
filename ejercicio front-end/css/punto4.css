@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+    *  {
+    font-family: 'Open Sans';
+    font-size: 50px;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    place-items: right;
+    justify-content: right;
+    background-color: black;
+}
+
+h1 {
+    display: inline;
+    margin: 10px;
+}
+
+body::before {
+    content: 'Soy Azul';
+    color: blue;
+    text-align: center;
+    margin-top: 60px;
+}
+
+body::after {
+    content: 'Soy Rojo';
+    color: red;
+    text-align: center;
+    margin-top: 60px;
+}

@@ -1,0 +1,31 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif; 
+    text-align: left
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#enlaces {
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+#font {
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    color: yellow
+}
+
+#blue {
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue
+}

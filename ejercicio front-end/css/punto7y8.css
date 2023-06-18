@@ -1,0 +1,22 @@
+/*PUNTO 7*/
+.punto7_nav{
+    background-color: pink;
+}
+
+.punto7_nav ul{
+    display: inline-flex;
+}
+
+.punto7_nav li {
+    padding: 10px;
+    list-style:none;
+}
+
+.punto7_nav li:hover {
+    background-color: blue;
+}
+
+.punto7_nav a {
+    color: white;
+    font-size: 22px;
+}
